@@ -1,0 +1,16 @@
+<div class="center">
+    <p class="center">Login </p>
+    <div>
+        <input type="text" placeholder="username" [(ngModel)]="username" (ngModelChange)="username" />
+    </div>
+    <br>
+    <div>
+        <input type="text" placeholder="password" [(ngModel)]="password"  (ngModelChange)="password"/>
+    </div>
+    <br>
+    <div>
+        <button type="submit" (click)="onSubmit()">Login</button>
+    </div>
+</div>
+
+
